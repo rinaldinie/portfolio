@@ -1,0 +1,27 @@
+title: "Enrico Rinaldini"
+description: "Game Developer / Software Developer"
+author: "Enrico Rinaldini"
+email: "rinaldini.enrico@gmail.com"
+github_username: rinaldinie
+linkedin_username: tuousername
+
+# Build settings
+markdown: kramdown
+highlighter: rouge
+theme: minima
+
+# Impostazioni sito
+baseurl: ""
+url: "https://er-portfolio.github.io"
+
+# Collections (per progetti futuri)
+collections:
+  projects:
+    output: true
+    permalink: /:collection/:name/
+
+defaults:
+  - scope:
+      path: ""
+    values:
+      layout: "default"

@@ -1,0 +1,17 @@
+- title: "Breakout Game"
+  description: "Un classico gioco Breakout implementato con Unity. Distruggi tutti i blocchi colpendo la palla con la racchetta, senza far cadere la palla"
+  technologies: ["Unity"]
+  icon: "🏪"
+  github_url: "https://github.com/rinaldinie/Breakout_0_Interaction"
+  
+- title: "Dashboard Analytics"
+  description: "Piattaforma web per visualizzazione e analisi dati aziendali con grafici interattivi"
+  technologies: ["ASP.NET Core", "Chart.js", "Entity Framework"]
+  icon: "📊"
+  github_url: "https://github.com/tuousername/progetto2"
+  
+- title: "Libreria Utilities"
+  description: "Collezione di strumenti e utility per sviluppatori C# con funzioni comuni"
+  technologies: ["C#", ".NET Standard", "NuGet"]
+  icon: "🔧"
+  github_url: "https://github.com/tuousername/progetto3"
