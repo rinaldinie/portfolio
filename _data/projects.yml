@@ -15,3 +15,10 @@
   technologies: ["C#", ".NET Standard", "NuGet"]
   icon: "🔧"
   github_url: "https://github.com/tuousername/progetto3"
+  
+- title: "Prova"
+  description: "Collezione di strumenti e utility per sviluppatori C# con funzioni comuni"
+  technologies: ["C#", ".NET Standard", "NuGet"]
+  icon: "🔧"
+  github_url: "https://github.com/tuousername/progetto3"
+  

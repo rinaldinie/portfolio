@@ -4,7 +4,7 @@ title: Home
 ---
 
 # Sviluppatore C# 
-## Creare videogames è 
+## Creare videogames
 
 Benvenuto nel mio portfolio! Sono appassionato di sviluppo software e specializzato in tecnologie Microsoft.
 
@@ -33,27 +33,3 @@ Mi dedico costantemente all'apprendimento di nuove tecnologie e best practices p
 - **Unreal Engine** sviluppo di videogames 3D
 
 ---
-
-## I Miei Progetti
-
-### 🏪 Breakout Game
-Un classico gioco Breakout implementato con Unity. Distruggi tutti i blocchi colpendo la palla con la racchetta, senza far cadere la palla.
-**Tecnologie:** Unity, C#
-
-### 📊 Sistema di prenotazione e gestione 
-Piattaforma web per visualizzazione su una interfaccia di schedulazione le richieste di auto aziendali e le richieste di ferie.
-**Tecnologie:** ASP.NET Core, Entity Framework, Blazor 
-
-### 🔧 Librerie/Utilities
-Collezione di strumenti e utility per sviluppatori C# con funzioni comuni.
-**Tecnologie:** C#, .NET
-
----
-
-## Contatti
-
-📧 **Email:** rinaldini.enrico@gmail.com  
-💼 **LinkedIn:** [Il tuo profilo](https://linkedin.com/in/enrico-rinaldini-a8020a80/)  
-🐙 **GitHub:** [I tuoi repository](https://github.com/rinaldinie)
-
-Interessato a collaborare? Non esitare a contattarmi!

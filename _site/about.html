@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About - Enrico Rinaldini</title>
+    <meta name="description" content="Game Developer / Software Developer">
+	<link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <nav class="container">
+            <a href="/" class="logo">Test</a>
+            <ul class="nav-links">
+                
+                <li><a href="/">Home</a></li>
+                
+                <li><a href="/about">About</a></li>
+                
+                <li><a href="/projects">Progetti</a></li>
+                
+                <li><a href="/contact">Contatti</a></li>
+                
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Main Content -->
+    <main>
+        
+
+        <!-- Page Content -->
+        <section class="section-main">
+            <div class="container">
+                
+                <h1 class="section-title">About</h1>
+                
+                
+                <h1 id="chi-sono">Chi Sono</h1>
+
+<p>Ciao! Sono <strong>Enrico Rinaldini</strong>, uno sviluppatore software con una passione particolare per il mondo <strong>.NET</strong> e <strong>C#</strong>.</p>
+
+<h2 id="la-mia-storia">La mia storia</h2>
+
+<p>Scrivi qui la tua storia professionale…</p>
+<ul>
+  <li>Come hai iniziato</li>
+  <li>Cosa ti appassiona della programmazione</li>
+  <li>I tuoi obiettivi</li>
+</ul>
+
+<h2 id="competenze-tecniche">Competenze Tecniche</h2>
+
+<h3 id="linguaggi-di-programmazione">Linguaggi di Programmazione</h3>
+<ul>
+  <li><strong>C#</strong> - Linguaggio principale</li>
+  <li><strong>SQL</strong> - Per database relazionali</li>
+  <li><strong>ASP .NET</strong> - Per web development</li>
+  <li><strong>Blazor</strong> - Per web development</li>
+</ul>
+
+<h3 id="framework-e-tecnologie">Framework e Tecnologie</h3>
+<ul>
+  <li><strong>.NET Framework/Core</strong></li>
+  <li><strong>ASP.NET MVC/Core</strong></li>
+  <li><strong>Entity Framework</strong></li>
+  <li><strong>WPF</strong> per applicazioni desktop</li>
+</ul>
+
+<h3 id="strumenti-e-ambiente">Strumenti e Ambiente</h3>
+<ul>
+  <li><strong>Visual Studio</strong></li>
+  <li><strong>Git</strong> e <strong>GitHub</strong></li>
+  <li><strong>DevOps</strong></li>
+  <li><strong>SQL Server Management Studio</strong></li>
+  <li><strong>Postman</strong> per API testing</li>
+</ul>
+
+<h2 id="oltre-il-codice">Oltre il Codice</h2>
+
+<p>Racconta qualcosa di te…</p>
+<ul>
+  <li>I tuoi hobby</li>
+  <li>Cosa ti piace fare nel tempo libero</li>
+  <li>Altri interessi</li>
+</ul>
+
+                
+                
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <p>&copy; 2025 Il Tuo Nome. Tutti i diritti riservati.</p>
+        </div>
+    </footer>
+
+    <script>
+        // Smooth scrolling per i link anchor
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                const target = document.querySelector(this.getAttribute('href'));
+                if (target) {
+                    target.scrollIntoView({
+                        behavior: 'smooth',
+                        block: 'start'
+                    });
+                }
+            });
+        });
+
+        // Parallax effect semplice
+        window.addEventListener('scroll', () => {
+            const scrolled = window.pageYOffset;
+            const hero = document.querySelector('.hero');
+            if (hero) {
+                hero.style.transform = `translateY(${scrolled * 0.5}px)`;
+            }
+        });
+    </script>
+</body>
+</html>

@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Progetti - Enrico Rinaldini</title>
+    <meta name="description" content="Game Developer / Software Developer">
+	<link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <nav class="container">
+            <a href="/" class="logo">Test</a>
+            <ul class="nav-links">
+                
+                <li><a href="/">Home</a></li>
+                
+                <li><a href="/about">About</a></li>
+                
+                <li><a href="/projects">Progetti</a></li>
+                
+                <li><a href="/contact">Contatti</a></li>
+                
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Main Content -->
+    <main>
+        
+
+        <!-- Page Content -->
+        <section class="section-main">
+            <div class="container">
+                
+                <h1 class="section-title">Progetti</h1>
+                
+                
+                <h2 id="i-miei-progetti">I Miei Progetti</h2>
+
+<h3 id="-breakout-game">🏪 Breakout Game</h3>
+<p>Un classico gioco Breakout implementato con Unity. Distruggi tutti i blocchi colpendo la palla con la racchetta, senza far cadere la palla.
+<strong>Tecnologie:</strong> Unity, C#</p>
+
+<h3 id="-sistema-di-prenotazione-e-gestione">📊 Sistema di prenotazione e gestione</h3>
+<p>Piattaforma web per visualizzazione su una interfaccia di schedulazione le richieste di auto aziendali e le richieste di ferie.
+<strong>Tecnologie:</strong> ASP.NET Core, Entity Framework, Blazor</p>
+
+<h3 id="-librerieutilities">🔧 Librerie/Utilities</h3>
+<p>Collezione di strumenti e utility per sviluppatori C# con funzioni comuni.
+<strong>Tecnologie:</strong> C#, .NET</p>
+
+<h3 id="-librerieutilities-1">🔧 Librerie/Utilities</h3>
+<p>Collezione di strumenti e utility per sviluppatori C# con funzioni comuni.
+<strong>Tecnologie:</strong> C#, .NET</p>
+
+                
+                
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <p>&copy; 2025 Il Tuo Nome. Tutti i diritti riservati.</p>
+        </div>
+    </footer>
+
+    <script>
+        // Smooth scrolling per i link anchor
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                const target = document.querySelector(this.getAttribute('href'));
+                if (target) {
+                    target.scrollIntoView({
+                        behavior: 'smooth',
+                        block: 'start'
+                    });
+                }
+            });
+        });
+
+        // Parallax effect semplice
+        window.addEventListener('scroll', () => {
+            const scrolled = window.pageYOffset;
+            const hero = document.querySelector('.hero');
+            if (hero) {
+                hero.style.transform = `translateY(${scrolled * 0.5}px)`;
+            }
+        });
+    </script>
+</body>
+</html>
