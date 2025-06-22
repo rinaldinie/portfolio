@@ -1,0 +1,300 @@
+﻿// *****************
+// Global Variables
+// *****************
+
+// Spaces
+$base-spacing-unit: 16px;
+
+// Border radius
+$global-radius: 3px;
+
+// Transition
+$global-transition: all .2s;
+
+// *****************
+// Typography
+// *****************
+$base-font-size: 18px;
+$base-font-style: normal;
+$base-font-variant: normal;
+$base-font-weight: normal;
+$base-font-family: 'Roboto Mono', "Courier New", "Lucida Console", Monaco, monospace;
+$base-line-height: 1.6;
+$base-letter-spacing: -0.2px;
+
+// Headings
+$heading-font-weight: 700;
+$heading-font-family: 'Poppins', Helvetica Neue, Helvetica, Arial, sans-serif;
+
+$font-size-h1: 36px;
+$font-size-h2: 28px;
+$font-size-h3: 24px;
+$font-size-h4: 20px;
+$font-size-h5: 18px;
+$font-size-h6: 16px;
+
+$heading-line-height: 1.3;
+$heading-letter-spacing: -0.2px;
+
+$columns: 12;
+$container-base-width: 1364px;
+$container-offset: $base-spacing-unit;
+
+$wide: 1400px;
+$desktop: 1024px;
+$tablet: 768px;
+$mobile: 576px;
+
+$mq: ( $mobile:$columns, $tablet:$columns, $desktop:$columns );
+
+// *****************
+
+// Section
+section {
+     padding: 6rem 0;
+     position: relative;
+     min-height: 900px;
+}
+
+.footer {
+    margin-top: 20px;
+    border-top: 1px solid var(--border-color);
+    background: var(--background-alt-color-2);
+
+    .footer__title {
+        margin-bottom: 24px;
+        font-size: 18px;
+        font-weight: 600;
+    }
+
+    @media (max-width: $mobile) {
+        margin-top: 60px;
+    }
+}
+
+.footer__inner {
+    padding: 10px 0;
+
+    .row .col {
+        flex-grow: 1;
+    }
+
+    @media (max-width: $desktop) {
+        .row {
+            margin-bottom: -48px;
+
+            .col {
+                margin-bottom: 48px;
+            }
+        }
+    }
+}
+
+/// Footer Info
+.footer__info__title {
+    margin-bottom: 24px;
+    font-size: 32px;
+    line-height: 1;
+    font-weight: 700;
+    letter-spacing: -1px;
+}
+
+.footer__info__description {
+    margin: 0;
+    font-size: 16px;
+}
+
+/// Footer Social
+.footer__social {
+    margin-top: 28px;
+
+    .footer__social__list {
+        display: flex;
+        align-items: center;
+        flex-wrap: wrap;
+        gap: 16px;
+
+        .footer__social__item:first-child > .footer__social__link {
+            padding-left: 0;
+        }
+    }
+
+    .footer__social__item {
+        margin-bottom: 0;
+    }
+
+    .footer__social__link {
+        display: flex;
+        align-items: center;
+        padding: 4px;
+        font-size: 24px;
+        color: var(--heading-font-color);
+
+        &:hover {
+            color: var(--primary-color);
+        }
+    }
+
+    @media (max-width: $desktop) {
+        margin-top: 24px;
+    }
+}
+
+// Copyright
+.copyright {
+    border-top: 1px solid var(--border-color);
+    padding: 32px 0;
+    font-family: $heading-font-family;
+    font-size: 14px;
+    line-height: 24px;
+    text-align: center;
+    color: var(--text-alt-color);
+
+    a {
+        text-decoration: underline;
+        text-decoration-color: transparent;
+        text-underline-offset: 2px;
+        color: var(--heading-font-color);
+
+        &:hover {
+            text-decoration-color: var(--heading-font-color);
+            color: var(--heading-font-color);
+        }
+    }
+
+    @media (max-width: $desktop) {
+        text-align: left;
+    }
+}
+
+// About Section
+ .about-content {
+     display: grid;
+     grid-template-columns: 1fr 2fr;
+     gap: 4rem;
+     align-items: center;
+}
+ .about-avatar {
+     width: 250px;
+     height: 250px;
+     background: linear-gradient(45deg, #00ffff, #ff00ff, #00ff96);
+     border-radius: 50%;
+     margin: 0 auto;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     font-size: 4rem;
+     position: relative;
+     animation: rotate 10s linear infinite;
+}
+ @keyframes rotate {
+     from {
+         transform: rotate(0deg);
+    }
+     to {
+         transform: rotate(360deg);
+    }
+}
+ .about-avatar::before {
+     content: '';
+     position: absolute;
+     top: -5px;
+     left: -5px;
+     right: -5px;
+     bottom: -5px;
+     background: linear-gradient(45deg, #00ffff, #ff00ff, #00ff96, #00ffff);
+     border-radius: 50%;
+     z-index: -1;
+     animation: rotate 10s linear infinite reverse;
+}
+ .about-text {
+     font-size: 1.2rem;
+     line-height: 1.8;
+     color: #a5b3bb;
+}
+ .about-text p {
+     margin-bottom: 1.5rem;
+}
+
+ // Contact Section
+.contact {
+    display: flex;
+    min-height: 800px;
+    justify-content: center;
+
+    .contact__inner {
+        width: 100%;
+        max-width: 800px;
+
+        .contact__link {
+            display: inline-flex;
+            margin-bottom: 24px;
+            align-items: center;
+            gap: 8px;
+            padding: 6px 16px;
+            font-family: $heading-font-family;
+            font-size: 16px;
+            border-radius: 12px;
+            text-decoration: none;
+            border: 1px solid var(--border-color);
+            transition: none;
+
+            &:hover {
+                outline: 0.4px solid var(--border-alt-color);
+            }
+
+            i {
+                font-size: 14px;
+            }
+        }
+
+        .contact__head {
+            margin-bottom: 32px;
+        }
+
+        .contact__title {
+            margin: 0;
+            font-size: 48px;
+        }
+
+        .contact__description {
+            margin: 12px 0 0;
+        }
+    }
+
+    @media (max-width: $wide) {
+        .contact__left {
+            width: 40%;
+        }
+
+        .contact__right {
+            width: 60%;
+        }
+    }
+
+    @media (max-width: $desktop) {
+        .contact__left {
+            display: none;
+        }
+
+        .contact__right {
+            width: 100%;
+        }
+    }
+
+    @media (max-width: $mobile) {
+        .contact__inner {
+            .contact__title {
+                font-size: 32px;
+            }
+
+            .contact__description {
+                font-size: 16px;
+            }
+        }
+
+        .contact__right {
+            padding: 32px 20px;
+        }
+    }
+}

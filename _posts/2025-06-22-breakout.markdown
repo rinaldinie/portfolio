@@ -1,0 +1,21 @@
+---
+layout: post
+title: Breakout
+date: 2025-06-22 16:23:50 +0200
+---
+
+<div class="row" style="justify-content:center">
+    <div class="col col-8">
+        <div class="page-head">
+            <div class="page-image">
+                <img alt="Breakout" src="/assets/img/breakout-game.png">
+            </div>
+        </div>
+        <article class="page">
+            <div class="page__content">
+                <p>Un classico gioco Breakout implementato con Unity. Distruggi tutti i blocchi colpendo la palla con la racchetta e non farla cadere.</p>
+            </div>
+            <li>📁<strong>GitHub:</strong> <a href="https://github.com/rinaldinie/Breakout_0_Interaction" target="_blank">Vai al repository</a></li>
+        </article>
+    </div>
+</div>

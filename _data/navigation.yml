@@ -1,8 +1,8 @@
 - name: Home
   link: /
-- name: About
-  link: /about
 - name: Progetti  
   link: /projects
+- name: Chi sono
+  link: /about
 - name: Contatti
   link: /contact

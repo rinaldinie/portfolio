@@ -1,0 +1,23 @@
+﻿<body>
+    <div class="game-container">
+        <div class="game-header">
+            <h2>🐍 Snake</h2>
+            <div class="score">Punteggio: <span id="score">0</span></div>
+        </div>
+
+        <div style="position: relative;">
+            <canvas id="gameCanvas" class="game-canvas" width="800" height="400"></canvas>
+            <div id="gameOver" class="game-over">
+                <h3>Game Over!</h3>
+                <p>Punteggio finale: <span id="finalScore">0</span></p>
+                <button class="restart-btn" onclick="restartGame()">Gioca Ancora</button>
+            </div>
+        </div>
+
+        <div class="controls">
+            Usa WASD per iniziare e muovere il serpente
+        </div>
+    </div>
+
+    <script src="/js/snake.js"></script>
+</body>

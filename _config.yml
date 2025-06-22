@@ -21,6 +21,7 @@
 title: "Enrico Rinaldini"
 email: "rinaldini.enrico@gmail.com"
 description: "Game Developer / Software Developer"
+author: "Enrico Rinaldini"
 
 # Website config
 baseurl: ""
@@ -34,10 +35,14 @@ markdown: kramdown
 highlighter: rouge
 theme: minima
 
-
+permalink: /projects/:title/
 
 plugins:
   - jekyll-feed
+
+sass:
+  sass_dir: assets/css
+  style: compressed
 
 # Exclude from processing.
 # The following items will not be processed, by default.
