@@ -24,8 +24,8 @@ description: "Game Developer / Software Developer"
 author: "Enrico Rinaldini"
 
 # Website config
-baseurl: "https://rinaldinie.github.io"
-url: "re-portfolio.github.io"
+baseurl: ""
+url: "https://rinaldinie.github.io"
 
 github_username:  rinaldinie
 linkedin_username: enrico-rinaldini-a8020a80
