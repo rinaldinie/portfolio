@@ -8,7 +8,7 @@
 - id: "portfolio"
   title: "Costruire questa pagina è stata una vera e proprio sfida"
   link: "/projects/portfolio"
-  excerpt: "Come ho costruito questa pagina web, le sfide dei nuovi linguaggi di programmazione, lo stimolo a continuare, la necessità di dare visibilità al mio lavoro"
+  excerpt: "Perché ho costruito questa pagina web, le sfide dei nuovi linguaggi di programmazione, lo stimolo a continuare, la necessità di dare visibilità al mio lavoro"
   image: "https://images.unsplash.com/photo-1633356122544-f134324a6cee?w=400&h=250&fit=crop"
   technologies: ["HTML", "CSS", "JavaScript", "Markdown"]
           
