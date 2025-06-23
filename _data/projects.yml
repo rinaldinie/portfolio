@@ -1,27 +1,27 @@
 - id: "breakout"
   title: "Un classico gioco Breakout implementato in Unity"
   link: "/projects/breakout"
-  excerpt: "Da qualche parte bisogna pur cominciare.. qui le prime basi di programmazione in Unity che hanno iniziato a fondare le basi dello sviluppo di videogames"
+  excerpt: "Dove comincia la mia base di programmazione in Unity e le basi del mio sviluppo di videogames."
   image: "/assets/img/breakout-game.png"
   technologies: ['Unity', 'C#']
          
 - id: "portfolio"
   title: "Costruire questa pagina è stata una vera e proprio sfida"
   link: "/projects/portfolio"
-  excerpt: "Perché ho costruito questa pagina web, le sfide dei nuovi linguaggi di programmazione, lo stimolo a continuare, la necessità di dare visibilità al mio lavoro"
-  image: "https://images.unsplash.com/photo-1633356122544-f134324a6cee?w=400&h=250&fit=crop"
+  excerpt: "Perché ho costruito questa pagina web, le sfide dei nuovi linguaggi di programmazione, lo stimolo a continuare, la necessità di dare visibilità al mio lavoro."
+  image: "/assets/img/portfolio.png"
   technologies: ["HTML", "CSS", "JavaScript", "Markdown"]
           
-- id: "docker-mastery"
-  title: "Mastering Docker for Development and Production"
-  link: "/projects/docker-mastery"
-  excerpt: "Learn how to containerize your applications effectively, from development environments to production deployments, ensuring consistency across all stages."
+- id: "truenas-home"
+  title: "Salvare i dati nel proprio spazio"
+  link: "/projects/truenas-home"
+  excerpt: "Ho deciso di che ero stanco di affidarmi a dei servizi online che ogni mese mi fanno spendere dei soldi per degli abbonamenti e salvare i miei dati, così ho creato il mio home server."
   image: "https://images.unsplash.com/photo-1605745341112-85968b19335b?w=400&h=250&fit=crop"
   technologies: ["Docker", "Linux"]
         
 - id: "csharp-dotnet-project"
-  title: "Advanced C# Development with .NET Standard"
+  title: "Sviluppo Avanzato C# e.NET"
   link: "/projects/csharp-dotnet-project"
-  excerpt: "Explore sophisticated C# patterns and .NET Standard features for building cross-platform applications that work seamlessly across different environments."
+  excerpt: "."
   image: "https://images.unsplash.com/photo-1555066931-4365d14bab8c?w=400&h=250&fit=crop"
-  technologies: ["C#", ".NET Standard", "NuGet", "Unity", "Blazor", "Unreal Engine"]
+  technologies: ["C#", ".NET Standard", "NuGet", "Unity", "Blazor" ]

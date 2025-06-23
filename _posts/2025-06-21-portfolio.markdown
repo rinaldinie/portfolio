@@ -14,17 +14,15 @@ date: 2025-06-21 16:00:00 +0200
         <article class="page">
             <div class="page__content">
                 <p>
-                    Dopo anni di sviluppo nel mondo Microsoft, dove ho costruito applicazioni web solide e funzionali utilizzando l'ecosistema .NET, mi trovo oggi a intraprendere un viaggio che mai avrei immaginato: 
-                    abbracciare completamente JavaScript e le sue moderne librerie.  
-                </p>
+					Ho sempre sviluppato applicazioni web nell'ecosistema Microsoft, usando .NET e Visual Studio. JavaScript l'ho sempre trovato caotico e l'ho evitato quando possibile.</p>
                 <p> 
-                    Per molto tempo ho mantenuto una certa distanza da JavaScript. Lo trovavo caotico, imprevedibile, troppo permissivo nelle sue regole. Preferivo la struttura e la tipizzazione forte di C#, la chiarezza dell'architettura .    NET, la prevedibilità di Visual Studio. Era la mia zona di comfort, e funzionava bene.
+                    Questo sito è diverso. L'ho costruito interamente con HTML, CSS e JavaScript - tecnologie che di solito cercavo di aggirare. Perché questo cambio di rotta? Semplice: avevo bisogno di mostrare le mie competenze di programmatore e dare visibilità alla mia carriera.
                 </p>
                 <p>
-                    Ma la vita professionale è fatta di evoluzioni, e a volte di rivoluzioni. La necessità di dare maggiore visibilità alle mie competenze, di esplorare nuove opportunità di carriera e di dimostrare la mia versatilità come sviluppatore mi ha portato a riconsiderare quello che per anni avevo evitato.
+                    Il mio vero obiettivo però è lo sviluppo di videogames. Sto puntando a Unity e Unreal Engine, settori dove le competenze di programmazione sono fondamentali ma il portfolio deve essere visibile e accessibile.
                 </p>
                 <p>
-                    Oggi inauguriamo questo spazio non solo come vetrina delle mie competenze tecniche, ma come diario di una trasformazione professionale. Qui condividerò il percorso di un programmatore che decide di uscire dalla propria comfort zone, di imparare nuovi paradigmi e di reinventare il proprio approccio allo sviluppo web.
+                    Questo progetto web rappresenta quindi un mezzo, non il fine. Un modo per dimostrare che so adattarmi a linguaggi diversi quando serve, anche quelli che in passato ho evitato.
                 </p>
                 <p class="note">
                     Perché alla fine, essere un programmatore significa saper evolvere, adattarsi e non smettere mai di imparare.
